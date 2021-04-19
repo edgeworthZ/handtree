@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+* {
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    /*background-color: rgba(77, 172, 140, 0.8);*/
+    background: url('https://pbs.twimg.com/media/C8ftdUSUMAApPQL.jpg');
+}
+
+.main{
+    margin: auto;
+    max-height: 80%;
+    max-width: 80%;
+    padding: 20%;
+}
+#my-name {
+    text-align: center;
+    color:antiquewhite;
+}
+
+.hobby {
+    text-align: center;
+    color:antiquewhite;
+}
+
+.button1 {
+    color:black;
+    /*background-color: lightgrey;*/
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+.button2 {
+    color:black;
+    background-color: lightgrey;
+    padding: 3px;
+    text-decoration: none;
+    display: inline-block;
+}
+.button3 {
+    color:black;
+    background-color: lightgrey;
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+}
+.i-am-the-best {
+    color: red;
+    text-transform: uppercase;
+    font-style: italic;
+}
+li, p {
+    font-style: italic;
+    text-decoration: underline;
+}
+.my-card {
+    background-color: whitesmoke;
+    margin:0 20px;
+    padding:30px;
+    border: 1px solid #b4b4b4;
+    border-top: 10px solid rgb(168, 52, 52);
+    border-radius: 10px;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    /*box-shadow: 0 0 20px rebeccapurple;*/
+    margin-bottom: 30px;
+}
+
+.my-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input1{
+    color: black;
+    text-align: center;
+    background-color:transparent;
+    margin-bottom: 10px;
+}
+
+.hide{
+    color: whitesmoke;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+}

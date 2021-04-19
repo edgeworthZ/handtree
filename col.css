@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+* {
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    /*background-color: rgba(77, 172, 140, 0.8);*/
+    background: url('https://pbs.twimg.com/media/C8ftdUSUMAApPQL.jpg');
+}
+
+.main{
+    background-color: white;
+    max-height: 80%;
+    max-width: 80%;
+    margin: auto;
+    border: 2px solid #b4b4b4;
+    border-top: 20px solid rgb(168, 52, 52);
+    border-right: 15px solid #b4b4b4;
+}
+.name {
+    background-color: white;
+    display: inline-block;
+    padding: 10px;
+    max-width: 30%;
+    margin: auto;
+}
+.logout1 {
+    color:black;
+    background-color: lightgrey;
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+.score {
+    color:white;
+    display: inline-block;
+    padding: 10px;
+    text-align: right;
+}
+
+#my-name {
+    text-align: left;
+    padding-left: 5%;
+}
+.button1 {
+    color:black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+.button2 {
+    color:black;
+    background-color: lightgrey;
+    padding: 3px;
+    text-decoration: none;
+    display: inline-block;
+}
+.button3 {
+    color:black;
+    background-color: lightgrey;
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+}
+.i-am-the-best {
+    color: red;
+    text-transform: uppercase;
+    font-style: italic;
+}
+li, p {
+    font-style: italic;
+    text-decoration: underline;
+}
+.my-card {
+    background-color: whitesmoke;
+    margin:0 20px;
+    padding:5%;
+    border-radius: 10px;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.my-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input1{
+    color: black;
+    text-align: center;
+    background-color:transparent;
+    margin-bottom: 10px;
+}
+
+.tree-img {
+    max-height: 70%;
+    max-width: 70%;
+    margin: auto;
+    padding-bottom: 10%;
+}
+
+.foot {
+    display: block;
+    text-align : right;
+    padding: 10px;
+}
+
+.bottom {
+    color:black;
+    background-color: lightgrey;
+    padding: 7px;
+    text-decoration: none;
+    display: inline-block;
+    margin: auto;
+}

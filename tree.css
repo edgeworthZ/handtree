@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+* {
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    /*background-color: rgba(77, 172, 140, 0.8);*/
+    background: url('https://pbs.twimg.com/media/C8ftdUSUMAApPQL.jpg');
+}
+.main {
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.name {
+    background-color: white;
+    display: inline-block;
+    padding: 10px;
+    max-width: 30%;
+    margin: auto;
+}
+.logout1 {
+    color:black;
+    background-color: lightgrey;
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+.score {
+    color:white;
+    display: inline-block;
+    padding: 10px;
+    text-align: right;
+}
+.status {
+    color: white;
+    padding: 5px;
+    max-height: 35%;
+    max-width: 35%;
+}
+.tree-img {
+    display: block;
+    margin: auto;
+    max-height: 55%;
+    max-width: 55%;
+    border-radius: 50%;
+}
+.foot {
+    display: block;
+    text-align : right;
+}
+.bottom {
+    background-color: white;
+    color:black;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    margin: auto;
+}
