@@ -42,10 +42,6 @@ body {
     display: inline-block;
 }
 
-li, p {
-    font-style: italic;
-    text-decoration: underline;
-}
 .my-card {
     background-color: whitesmoke;
     margin: 5%;
