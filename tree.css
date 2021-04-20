@@ -19,11 +19,6 @@ body {
     margin: auto;
 }
 
-.hobby {
-    text-align: center;
-    color:antiquewhite;
-}
-
 .button1 {
     color:black;
     /*background-color: lightgrey;*/
@@ -31,9 +26,8 @@ body {
     text-decoration: none;
     display: block;
     text-align: center;
-    
-    
 }
+
 .button2 {
     color:black;
     background-color: lightgrey;
