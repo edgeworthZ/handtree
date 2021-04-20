@@ -2,60 +2,84 @@
 
 * {
     font-family: Montserrat, sans-serif;
+    box-sizing:border-box;
 }
 
 body {
     /*background-color: rgba(77, 172, 140, 0.8);*/
-    background: url('https://pbs.twimg.com/media/C8ftdUSUMAApPQL.jpg');
-}
-.main {
-    margin: auto;
-    color: white;
-    text-align: center;
+    background-image: url('bgcol.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
-.name {
-    background-color: white;
-    display: inline-block;
-    padding: 10px;
-    max-width: 30%;
+.main{
+    max-height: 75%;
+    max-width: 75%;
     margin: auto;
 }
-.logout1 {
+
+.hobby {
+    text-align: center;
+    color:antiquewhite;
+}
+
+.button1 {
+    color:black;
+    /*background-color: lightgrey;*/
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    
+    
+}
+.button2 {
     color:black;
     background-color: lightgrey;
-    padding: 5px;
+    padding: 3px;
     text-decoration: none;
     display: inline-block;
 }
-.score {
-    color:white;
-    display: inline-block;
-    padding: 10px;
-    text-align: right;
+
+li, p {
+    font-style: italic;
+    text-decoration: underline;
 }
-.status {
-    color: white;
-    padding: 5px;
-    max-height: 35%;
-    max-width: 35%;
+.my-card {
+    background-color: whitesmoke;
+    margin: 5%;
+    padding: 60px;
+    border: 1px solid #b4b4b4;
+    border-top: 10px solid rgb(168, 52, 52);
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    /*box-shadow: 0 0 20px rebeccapurple;*/
+    /*margin-bottom: 30px;*/
 }
+
+.my-user {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo-img {
+    height: 200px;
+    weight: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+
 .tree-img {
-    display: block;
+    height: 100px;
+    width: 100px;
     margin: auto;
-    max-height: 55%;
-    max-width: 55%;
-    border-radius: 50%;
-}
-.foot {
-    display: block;
-    text-align : right;
-}
-.bottom {
-    background-color: white;
-    color:black;
-    display: inline-block;
-    padding: 10px;
-    text-decoration: none;
-    margin: auto;
+    padding-bottom: 10px;
+    align-self: center;
 }
