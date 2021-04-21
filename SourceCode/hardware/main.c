@@ -154,12 +154,6 @@ usbMsgLen_t usbFunctionSetup(uint8_t data[8])
         usbMsgPtr = &switch4_state;
         return 1;
     }
-    else if (rq->bRequest == RQ_GET_LIGHT)
-    {
-        light_value = read_adc(PC4);
-        usbMsgPtr = (uchar*) &light_value;
-        return sizeof(light_value);
-    }
     else if (rq->bRequest == RQ_GET_ULTRA)
     {
         uint16_t r1;
